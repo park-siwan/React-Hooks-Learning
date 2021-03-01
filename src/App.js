@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
+import Count from './hooks/Count';
+import UseInput from './hooks/UseInput';
+import UseTabs from './hooks/UseTabs';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1>React hooks 예제</h1>
+      <h2>#1 UseState</h2>
+      <th>
+        <Count />
+      </th>
+      <br />
+      <th>
+        <UseInput />
+      </th>
+      <br />
+      <th>
+        <UseTabs />
+      </th>
+      <h2>#2 UseEffect</h2>
     </div>
   );
 }
