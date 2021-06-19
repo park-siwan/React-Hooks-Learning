@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 const content = [
   {
     tab: 'Section 1',
-    content: "I'm the content of the Section 1",
+    content: '첫번째 컨텐츠',
   },
   {
     tab: 'Section 2',
-    content: "I'm the content of the Section 2",
+    content: '두번째 컨텐츠',
   },
 ];
 

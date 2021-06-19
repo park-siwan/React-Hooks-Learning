@@ -13,6 +13,7 @@ function App() {
         <Count />
       </th>
       <br />
+      <h2>#1.1 UseInput</h2>
       <th>
         <UseInput />
       </th>
